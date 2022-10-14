@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body header, body nav, body main, body footer {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body nav {
+    height: 80px;
+    background-color: #90B5B1;
+}
+body main {
+    height: 800px;
+    background-color: #009D96;
+}
+body header {
+    background-color: #8DDCBF;
+    height: 150px;
+}
+body footer {
+    height: 100px;
+    background-color: #54EDCF;
+}

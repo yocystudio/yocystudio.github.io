@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularios</title>
+<style type="text/css">
+body {
+    background-image: url(../Icono/arbol.jpeg);
+    background-repeat: repeat;
+}
+</style>
+<link href="../CSS/Style_page_2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios</h1> <a href="../index.html"><img src="../Icono/LOGOYOCYblanco.png" alt="" width="3548" height="3504" class="botondeinicio"/></a>
+</header>
+<nav>
+    <ul id="menu_principal">
+	    <li><a href="Formatos de texto.html">Formato de texto</a></li>
+	    <li><a href="Listas.html">Listas</a></li>
+	    <li><a href="Enlaces.html">Enlaces</a></li>
+	    <li><a href="Tablas.html">Tablas</a></li>
+        <li><a href="Imagenes.html">Imagenes</a></li>
+        <li><a href="Audio.html">Audios</a></li>
+        <li><a href="Videos.html">Videos</a></li>
+        <li><a href="Formularios.html">Formularios</a></li>
+    </ul>    
+</nav>
+<main>
+    <section>
+    <h2>Formulario de tipo de texto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis incidunt perspiciatis porro cupiditate, dolorum ratione aut perferendis tempore hic qui. Esse velit nihil, provident atque delectus nobis laborum officiis itaque voluptatum repellat debitis numquam harum animi cumque saepe minima aut.</p>
+    <form id="form1" name="form1" method="get">
+      <label for="Nombre">Nombre: </label>
+      <input type="text" name="Nombre" id="Nombre">
+      <br>
+<label for="Apellido">Apellido:</label>
+      <input type="text" name="Apellido" id="Apellido">
+        <br>
+        <br>
+      <input name="Botón1" type="submit" id="Botón1" formaction="Procesamiento.html" value="Enviar">
+    </form>
+    </section>
+      <section>
+    <h2>Formulario usando select, checkbox y radiobutton </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis incidunt perspiciatis porro cupiditate, dolorum ratione aut perferendis tempore hic qui. Esse velit nihil, provident atque delectus nobis laborum officiis itaque voluptatum repellat debitis numquam harum animi cumque saepe minima aut.</p>
+    <form id="form2" name="form2" method="get">
+      <label for="Casas">Casa de Hogwarts:</label>
+      <select name="Casas" id="Casas">
+        <option value="HF">Hufflepuff</option>
+        <option value="SL">Slytherin</option>
+        <option value="RW">Ravenclaw</option>
+        <option value="GR">Griffyndor</option>
+      </select>
+      <br><br><label>
+      Materia: </label>
+      <p>
+        <label>
+          <input type="radio" name="Clase" value="Po" id="Clase_0">
+          Pociones</label>
+        <br>
+        <label>
+          <input type="radio" name="Clase" value="Enca" id="Clase_1">
+          Encantamientos</label>
+        <br>
+        <label>
+          <input type="radio" name="Clase" value="Herbo" id="Clase_2">
+          Herbología</label>
+      </p>
+      <label><br>
+        <br>
+      Profesor:</label>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Profesores" value="Severus" id="Profesores_0">
+            Severus Snape</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Profesores" value="Minerva" id="Profesores_1">
+            Minerva Mgonagall</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Profesores" value="Hagrid" id="Profesores_2">
+            Hagrid</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Profesores" value="Dolores" id="Profesores_3">
+            Dolores Umbrige</label></td>
+        </tr>
+      </table>
+      <p>        <br>
+      </p>
+<br>
+<br>
+<input name="Boton2" type="submit" id="Boton2" formaction="Procesamiento.html" value="Enviar">
+      
+    </form>
+    </section>
+      <section>
+    <h2>Formulario de contacto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis incidunt perspiciatis porro cupiditate, dolorum ratione aut perferendis tempore hic qui. Esse velit nihil, provident atque delectus nobis laborum officiis itaque voluptatum repellat debitis numquam harum animi cumque saepe minima aut.</p>
+    <form action="Procesamiento.html" method="post" name="form3" id="form3">
+<label for="Nombre">Nombre:</label>
+      <input name="Nombre" type="text" required="required" id="Nombre" form="form3" placeholder="Escribe tu nombre">
+      <br>
+<label for="email2">Email:</label>
+      <input name="email2" type="email" id="email2" placeholder="correo.example@hotmail.com">
+      <label for="Mensaje"><br>
+      Mensaje</label>
+      <textarea name="Mensaje" rows="6" maxlength="150" id="Mensaje" placeholder="Escribe tu opinión..."></textarea>
+      <input name="Boton 3" type="submit" id="Boton 3" formaction="Procesamiento.html" value="Enviar">
+<br>
+      <br>
+      
+    </form>
+    <label for="email">&nbsp;</label>
+    </section>
+      <section>
+    <h2>Formulario personalizado</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis incidunt perspiciatis porro cupiditate, dolorum ratione aut perferendis tempore hic qui. Esse velit nihil, provident atque delectus nobis laborum officiis itaque voluptatum repellat debitis numquam harum animi cumque saepe minima aut.</p>
+    <form id="form4" name="form4" method="post">
+         <label for="Nombre">Nombre:</label>
+        <input name="Nombre" type="text" required="required" id="Nombre" placeholder="Draco" autocomplete="on">
+        <label for="Apellido">Apellido:</label>
+        <input name="Apellido" type="text" required="required" id="Apellido" placeholder="Malfoy" autocomplete="on"><br><br>
+<label for="fileField">Sube una imagen de tu patronus:</label>
+      <input name="fileField" type="file" required="required" id="fileField"><br><br>
+        <label>Fecha en la que entraste a Hogwarts:</label><input type="date" required="required"><br><br>
+      <label>Casa a la que perteneces:</label>
+        <p>
+          <label>
+            <input type="radio" name="Casas" value="Sy" id="Casas_0">
+            Slytherin</label>
+          <br>
+          <label>
+            <input type="radio" name="Casas" value="Hf" id="Casas_1">
+            Hufflepuff</label>
+          <br>
+          <label>
+            <input type="radio" name="Casas" value="Rw" id="Casas_2">
+            Ravenclaw</label>
+          <br>
+          <label>
+            <input type="radio" name="Casas" value="Gr" id="Casas_3">
+            Gryffindor</label><br><br>
+          <input name="checkbox" type="checkbox" required="required" id="checkbox">
+          <label for="checkbox">Aceptas que tus datos sean utilizados por medios externos. </label>
+          <br><br>
+          <input name="imageField" type="image" class="image_boton" id="imageField" formaction="Procesamiento.html" formmethod="POST" src="../Icono/Botonenvio.png">
+      </p>
+    </form>
+    </section>
+</main>
+<footer>
+  <h6>Elaborado por Dafne Yocelyn Morales Ortiz</h6> 
+</footer>
+</body>
+</html>

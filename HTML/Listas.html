@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Listas</title>
+<style type="text/css">
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body header, body nav, body main, body footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body header {
+    height: 200px;
+    background-color: #17430B;
+    color: #C0BEBE;
+    padding-top: 50px;
+}
+body header h1 {
+    width: 800px;
+    height: 100px;
+    /* [disabled]background-color: #FFFFFF; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 74px;
+}
+body nav {
+    background-color: #5B9159;
+    height: 80px;
+    color: #D5D7D5;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+body main {
+    background-color: #71896E;
+    height: auto;
+    padding: 20px;
+    color: #FFFFFF;
+}
+body main section {
+    width: 800px;
+    height: auto;
+    background-color: #395F3C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding: 30px;
+    margin-right: auto;
+}
+main section h2 {
+    padding-bottom: 15px;
+}
+body footer {
+    background-color: #153210;
+    height: 100px;
+    color: #B0CCB4;
+}
+body footer h6 {
+    color: #99AD9A;
+    font-size: 24px;
+    text-align: center;
+    height: 20px;
+    padding-top: 40px;
+}
+main section ul, main section ol {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+section ul li {
+    list-style-type: circle;
+}
+#lista_1 li {
+    list-style-type: georgian;
+}
+.lista_2 li {
+    list-style-image: url(../Icono/brujula.png);
+}
+#menu {
+    padding: 0px;
+}
+#menu li {
+    list-style-type: none;
+    padding: 30px;
+    height: auto;
+    display: inline-block;
+    font-size: 24px;
+    width: 150px;
+    text-align: center;
+}
+body {
+    background-image: url(../Icono/Slytherin.png);
+    background-repeat: repeat;
+}
+#menu_principal {
+    width: 1100px;
+    text-align: left;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu_principal li {
+    list-style-type: none;
+    display: inline-block;
+    width: 156px;
+    height: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 3px;
+    border: 2px inset #395A36;
+    background-color: #56735A;
+    border-radius: 50px;
+    text-align: center;
+}
+#menu_principal li a:link, #menu_principal li a:visited {
+    text-align: center;
+    text-decoration: none;
+    color: #022200;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#menu_principal li a:hover {
+    color: #B2F8BF;
+    text-shadow: 2px 2px 10px #092204;
+}
+</style>
+<link href="../CSS/Style_page_2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Listas HTML</h1> <a href="../index.html"><img src="../Icono/LOGOYOCYblanco.png" alt="" width="3548" height="3504" class="botondeinicio"/></a>
+</header>
+<nav>
+    <ul id="menu_principal">
+	    <li><a href="Formatos de texto.html">Formato de texto</a></li>
+	    <li><a href="Listas.html">Listas</a></li>
+	    <li><a href="Enlaces.html">Enlaces</a></li>
+	    <li><a href="Tablas.html">Tablas</a></li>
+        <li><a href="Imagenes.html">Imagenes</a></li>
+        <li><a href="Audio.html">Audios</a></li>
+        <li><a href="Videos.html">Videos</a></li>
+        <li><a href="Formularios.html">Formularios</a></li>
+    </ul>
+</nav>
+<main>
+  <section>
+	  <h2>Lista desordenada</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum unde ad recusandae earum accusantium ex distinctio illo minima natus facilis corporis doloremque alias id eum debitis atque, eaque quo facere porro. Nam tempora modi, quaerat! Harum optio, mollitia quaerat, beatae dignissimos architecto sunt ipsa ut quam commodi in dolore minima.</p>
+	  <ul class="lista_2">
+	  	<li>Margaritas</li>
+		<li>Rosas</li>
+		<li>Violetas</li>
+		<li>Claveles</li>
+		<li>Hortencias</li>
+	  </ul>
+  </section>
+	
+	<section>
+	  <h2>Lista ordenada</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam praesentium error consequuntur, ut, maiores placeat. Fugiat fuga nulla minima, labore deleniti, earum sit aperiam placeat vero, sunt provident neque molestias corrupti pariatur natus tenetur consectetur libero officiis soluta! Sit fugit, ratione unde aliquid eveniet aperiam tempora obcaecati cum ipsum eaque veritatis impedit modi rerum quas, adipisci perspiciatis, nihil repellat reprehenderit provident voluptatum. Cumque alias sunt laboriosam, reprehenderit quod rerum possimus mollitia eligendi culpa voluptas dignissimos, veritatis excepturi, veniam atque? Neque eligendi dolores veniam mollitia provident temporibus accusantium! Ipsa deserunt laboriosam temporibus, alias explicabo autem exercitationem corporis quos ipsum illum commodi.</p>
+	  <ol>
+	    <li>Draco Malfoy</li>
+	    <li>Tom Riddle</li>
+	    <li>Mattheo Riddle&nbsp;</li>
+	    <li>&nbsp;Scorpius Malfoy</li>
+	    <li>&nbsp;Tn Grindelwald</li>
+      </ol>
+  </section>
+	
+	<section>
+	  <h2>Lista mixta</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil blanditiis doloremque illo magnam, alias facilis rerum doloribus adipisci. Ducimus modi sint, rerum eos perferendis distinctio facere quasi quisquam iusto. Sit nulla quae quod eligendi nesciunt, quaerat incidunt magni possimus. Consequatur explicabo possimus similique sequi? Dignissimos.</p>
+	  <ol>
+	    <li>Slythering</li>
+		  <ul>
+		  	<li>Draco</li>
+			<li>Tom</li>
+			<li>Mattheo</li>
+			<li>Pansy</li>
+		  </ul>
+	    <li>Hufflepuff</li>
+		   <ul>
+		  	<li>Newt</li>
+			<li>Cedric</li>
+			<li>Nymphadora</li>
+			<li>Theo</li>
+		  </ul>
+	    <li>Ravenclaw</li>
+	    <li>Griffindor</li>
+      </ol>
+  </section>
+	<section>
+	  <h2>Lista modificada con regla de identificador</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum unde ad recusandae earum accusantium ex distinctio illo minima natus facilis corporis doloremque alias id eum debitis atque, eaque quo facere porro. Nam tempora modi, quaerat! Harum optio, mollitia quaerat, beatae dignissimos architecto sunt ipsa ut quam commodi in dolore minima.</p>
+	  <ul id="lista_1">
+	  	<li>Albus Dumblodore</li>
+		<li>Minerva Magonagald</li>
+		<li>Severus Snape</li>
+		<li>Hagrid</li>
+		<li>Flitch</li>
+	  </ul>
+  </section>
+  <section>
+	  <h2>Lista desordenada</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum unde ad recusandae earum accusantium ex distinctio illo minima natus facilis corporis doloremque alias id eum debitis atque, eaque quo facere porro. Nam tempora modi, quaerat! Harum optio, mollitia quaerat, beatae dignissimos architecto sunt ipsa ut quam commodi in dolore minima.</p>
+	  <ul class="lista_2">
+	  	<li>Margaritas</li>
+		<li>Rosas</li>
+		<li>Violetas</li>
+		<li>Claveles</li>
+		<li>Hortencias</li>
+	  </ul>
+  </section>
+</main>
+	
+  <footer>
+    <h6>Elaborador por Dafne Yocelyn Morales Ortiz&nbsp;&nbsp; </h6>
+  </footer>
+</body>
+</html>

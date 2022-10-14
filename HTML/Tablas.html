@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tablas</title>
+<style type="text/css">
+body {
+    background-image: url(../Icono/%20-70.jpg);
+    background-repeat: repeat;
+}
+</style>
+<link href="../CSS/Style_page_2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+    <h1>Tablas en html</h1> <a href="../index.html"><img src="../Icono/LOGOYOCYblanco.png" alt="" width="3548" height="3504" class="botondeinicio"/></a>
+</header>
+<nav>
+    <ul id="menu_principal">
+	    <li><a href="Formatos de texto.html">Formato de texto</a></li>
+	    <li><a href="Listas.html">Listas</a></li>
+	    <li><a href="Enlaces.html">Enlaces</a></li>
+	    <li><a href="Tablas.html">Tablas</a></li>
+        <li><a href="Imagenes.html">Imagenes</a></li>
+        <li><a href="Audio.html">Audios</a></li>
+        <li><a href="Videos.html">Videos</a></li>
+        <li><a href="Formularios.html">Formularios</a></li>
+    </ul>
+</nav>
+<main>
+  <section>
+    <h2>Tabla desde código</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate repudiandae architecto voluptas nobis molestiae tempore, harum rerum exercitationem fugit.</p>
+    <table id="table_1">
+      <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Taller</th>
+            <th>Email</th>
+            <th>Cuota de taller</th>
+          </tr>
+    </thead>      
+        <tbody>
+         <tr>
+            <td>Rosa Lopez</td>
+            <td>Pintura</td>
+            <td>rosa@hotmaail.com</td>
+            <td>$800.00</td>
+        </tr>
+        <tr>
+            <td>Miguel Samperio</td>
+            <td>Foto</td>
+            <td>migue@hotmaail.com</td>
+            <td>$1200.00</td>
+        </tr> 
+        <tr>
+            <td>Laura Contle</td>
+            <td>Serigrafía</td>
+            <td>lau@hotmaail.com</td>
+            <td>$1000.00</td>
+        </tr> 
+        <tr>
+            <td>Itzel García</td>
+            <td>Macrame</td>
+            <td>Itzel@hotmaail.com</td>
+            <td>$500.00</td>
+        </tr>     
+        </tbody>
+        <tfoot>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><b>Total de inscripciones</b></td>
+            <td>$3500.00</td>
+        </tr>
+        </tfoot>  
+      </table>
+</section>
+  <section>
+<h2>Tablacon estilo css y uso de Rowspan</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate repudiandae architecto voluptas nobis molestiae tempore, harum rerum exercitationem fugit.</p>
+    <table id="table_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Taller</th>
+          <th>Email</th>
+          <th>Cuota de taller</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rosa Lopez</td>
+          <td>Pintura</td>
+          <td>rosa@hotmaail.com</td>
+          <td>$800.00</td>
+        </tr>
+        <tr>
+          <td>Miguel Samperio</td>
+          <td>Foto</td>
+          <td>migue@hotmaail.com</td>
+          <td>$1200.00</td>
+        </tr>
+        <tr>
+          <td>Laura Contle</td>
+          <td>Serigrafía</td>
+          <td>lau@hotmaail.com</td>
+          <td>$1000.00</td>
+        </tr>
+        <tr>
+          <td>Itzel García</td>
+          <td>Macrame</td>
+          <td>Itzel@hotmaail.com</td>
+          <td>$500.00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" style="background-color: #608779"><b style="color: #FFFFFF">Total de inscripciones</b></td>
+          <td>$3500.00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla cebra horizontal</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate repudiandae architecto voluptas nobis molestiae tempore, harum rerum exercitationem fugit.</p>
+    <p>&nbsp;</p>
+    <table width="100%" border="1" cellspacing="5" id="table_3">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">&nbsp;Materia</th>
+          <th scope="col">&nbsp;Casa</th>
+          <th scope="col">Varita&nbsp;</th>
+          <th scope="col">&nbsp;Patronus</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Draco Malfoy</td>
+          <td>Pociones Avanzadas</td>
+          <td>Slytherin</td>
+          <td>Roble centro de pelo de unicornio</td>
+          <td>Hurón albino</td>
+        </tr>
+        <tr>
+          <td>Hermione Granger</td>
+          <td>Ruinas antiguas</td>
+          <td>Griffyndor</td>
+          <td>Madera de sauco centro de pluma de lechuza</td>
+          <td>Nutria</td>
+        </tr>
+        <tr>
+          <td>Luna Lovegood</td>
+          <td>Hechizos</td>
+          <td>Ravenclaw</td>
+          <td>Olivo con centro de pluma de hypogrifo</td>
+          <td>Mariposa</td>
+        </tr>
+        <tr>
+          <td>Tn Grindelwald</td>
+          <td>Defensa contra las artes oscuras</td>
+          <td>Slytherin</td>
+          <td>Madera roble centro de pluma de fenix</td>
+          <td>Caballo salvaje</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section>
+    <h2>Tabla de cebra vertical</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate repudiandae architecto voluptas nobis molestiae tempore, harum rerum exercitationem fugit.</p>
+    <table width="100%" border="1" cellspacing="5" id="table_4">
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Materia</th>
+          <th scope="col">Casa</th>
+          <th scope="col">Varita</th>
+          <th scope="col">Patronus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Draco Malfoy</td>
+          <td>Pociones Avanzadas</td>
+          <td>Slytherin</td>
+          <td>Roble centro de pelo de unicornio</td>
+          <td>Hurón albino</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Hermione Granger</td>
+          <td>&nbsp;Ruinas antiguas</td>
+          <td>&nbsp;Griffyndor</td>
+          <td>&nbsp;Madera de sauco centro de pluma de lechuza</td>
+          <td>&nbsp;Nutria</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Luna Lovegood</td>
+          <td>&nbsp;Hechizos</td>
+          <td>&nbsp;Ravenclaw</td>
+          <td>&nbsp;Olivo con centro de pluma de hypogrifo</td>
+          <td>&nbsp;Mariposa</td>
+        </tr>
+        <tr>
+          <td>TnGrindelwald</td>
+          <td>Defensa contra las artes oscuras</td>
+          <td>Slytherin</td>
+          <td>Madera roble centro de pluma de fenix</td>
+          <td>Caballo salvaje</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+<section>
+    <h2>Tabla flotante (hover)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate repudiandae architecto voluptas nobis molestiae tempore, harum rerum exercitationem fugit.</p>
+    <table width="100%" border="1" cellspacing="5" id="table_5">
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Materia</th>
+          <th scope="col">Casa</th>
+          <th scope="col">Varita</th>
+          <th scope="col">Patronus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Draco Malfoy</td>
+          <td>Pociones Avanzadas</td>
+          <td>Slytherin</td>
+          <td>Roble centro de pelo de unicornio</td>
+          <td>Hurón albino</td>
+        </tr>
+        <tr>
+          <td>Hermione Granger</td>
+          <td>Ruinas antiguas</td>
+          <td>Griffyndor</td>
+          <td>Madera de sauco centro de pluma de lechuza</td>
+          <td>Nutria</td>
+        </tr>
+        <tr>
+          <td>Luna Lovegood</td>
+          <td>Hechizos</td>
+          <td>Ravenclaw</td>
+          <td>Olivo con centro de pluma de hypogrifo</td>
+          <td>Mariposa</td>
+        </tr>
+        <tr>
+          <td>TnGrindelwald</td>
+          <td>Defensa contra las artes oscuras</td>
+          <td>Slytherin</td>
+          <td>Madera roble centro de pluma de fenix</td>
+          <td>Caballo salvaje</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+<section>
+  <h2>Tabla receptiva</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate repudiandae architecto voluptas nobis molestiae tempore, harum rerum exercitationem fugit.</p>
+<div id="recep_1">
+  <table border="1" cellspacing="5" id="table_6">
+    <tbody>
+      <tr>
+        <th scope="col">Casa</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+        <th scope="col">Puntos</th>
+      </tr>
+      <tr>
+        <td>Slytherin</td>
+        <td>45</td>
+        <td>89</td>
+        <td>95</td>
+        <td>78</td>
+        <td>87</td>
+        <td>99</td>
+        <td>100</td>
+        <td>67</td>
+        <td>70</td>
+        <td>83</td>
+        <td>94</td>
+        <td>67</td>
+        <td>69</td>
+        <td>98</td>
+      </tr>
+      <tr>
+        <td>Hufflepuff</td>
+        <td>89</td>
+        <td>65</td>
+        <td>43</td>
+        <td>56</td>
+        <td>98</td>
+        <td>56</td>
+        <td>58</td>
+        <td>90</td>
+        <td>100</td>
+        <td>83</td>
+        <td>91</td>
+        <td>84</td>
+        <td>92</td>
+        <td>65</td>
+      </tr>
+      <tr>
+        <td>Griffyndor</td>
+        <td>63</td>
+        <td>21</td>
+        <td>37</td>
+        <td>41</td>
+        <td>97</td>
+        <td>54</td>
+        <td>32</td>
+        <td>90</td>
+        <td>24</td>
+        <td>67</td>
+        <td>100</td>
+        <td>86</td>
+        <td>16</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>Ravenclaw</td>
+        <td>67</td>
+        <td>89</td>
+        <td>32</td>
+        <td>67</td>
+        <td>17</td>
+        <td>89</td>
+        <td>46</td>
+        <td>83</td>
+        <td>50</td>
+        <td>100</td>
+        <td>75</td>
+        <td>78</td>
+        <td>31</td>
+        <td>45</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Dafne Yocelyn Morales Ortiz</h6>
+</footer>
+</body>
+</html>
